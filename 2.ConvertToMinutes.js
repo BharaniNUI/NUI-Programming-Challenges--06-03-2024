@@ -8,7 +8,7 @@ function convertToMinutes(timeInput) {
         for (let i = 0; i < timeInput.length; i++) {
             if (timeInput.charAt(i) === ":") {
                 minutes += timeInput.charAt(i + 1) + timeInput.charAt(i + 2); //Assigning remaining values to minutes variable
-                break; //Breaking the loopn after ":" symbol
+                break; //Breaking the loop after ":" symbol
             }
             hours += timeInput.charAt(i); //Assigning initial values to hours variable
         }
